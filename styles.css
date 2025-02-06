@@ -7,7 +7,7 @@ body {
 #container {
     display: flex;
     height: 100vh;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: stretch;
 }
 
