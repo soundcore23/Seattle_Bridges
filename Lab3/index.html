@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Seattle Bridges Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+    
+    <!-- Links to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main id="container">
+        <div id="table">
+            <h2>Seattle Bridges</h2>
+            <button onclick="sortTable()">Sort by Length</button>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Length (ft)</th>
+                </tr>
+            </table>
+        </div>
+        <div id="map"></div>
+    </main>
+
+    <!-- Links to external JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+body {
+    color: purple;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#table {
+    flex-basis: 500px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+@media (max-width: 1024px) {
+    #table {
+        display: none;
+    }
+}
+
+#map {
+    flex-grow: 1;
+}
+
+button {
+    margin-bottom: 25px;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
