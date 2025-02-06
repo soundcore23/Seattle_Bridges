@@ -4,7 +4,7 @@
 This project displays an interactive webpage of some of the major brudges in Seattle using MapBox GL JS and GeoJSON data. The site displays bridge locations and sizes them proportianally based the length of the bridge. It also has some interactivity, allowing users to sort the lengths of the bridges on the side panel.
 
 ## Features
-- **Interactive Map** – General information about the Harpy Eagle.
+- **Interactive Map**
 - **Side panel sorts bridges based on length with a button** 
 - **Table dissapears on smaller screen sizes for usability**
 
